@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(43, 84, 106);
+  text-align: center;
+  margin: 20px 180px 30px;
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+h2 {
+  color: white;
+  font-weight: normal;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.contents {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  width: 29%;
+  float: left;
+  margin: 2%;
+  height: 400px;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+img {
+  height: 30%;
+  width: 80%;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.main {
+  color: rgb(43, 84, 106);
+  font-weight: bold;
+  display: inline-block;
+  width: 90%;
+  font-size: 15px;
+  position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+p {
+  color: gray;
+  opacity: 0.8;
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: 5px;
+  position: absolute;
+  top: 83%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.name {
+  font-size: 16px;
+  position: absolute;
+  top: 75%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+button {
+  background-color: white;
+  padding: 14px 66px;
+  border-radius: 5px;
+  border: none;
+  color: rgb(43, 84, 106);
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+  transition: 0.6s;
+  opacity: 0.9;
+}
